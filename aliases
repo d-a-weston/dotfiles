@@ -1,0 +1,31 @@
+zshc() {
+  vim ~/.zshrc
+}
+
+zshr() {
+  source ~/.zshrc
+}
+
+tmuxc() {
+  vim ~/.tmux.conf
+}
+
+tmuxr() {
+  tmux source ~/.tmux.conf
+}
+
+aliasc() {
+  vim ~/.aliases
+}
+
+tfp() {
+  terraform plan
+}
+
+tfa() {
+  terraform apply -auto-approve
+}
+
+tfd() {
+  terraform destroy -auto-approve
+}

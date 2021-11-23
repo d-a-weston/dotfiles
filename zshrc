@@ -33,6 +33,10 @@ bindkey '^[[B' history-substring-search-down # Down key
 HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='fg=1'
 HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='fg=10'
 
+# Fuzzy Finder Options
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+export FZF_DEFAULT_COMMAND="fd . $HOME"
+
 # NVM Configuration
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm

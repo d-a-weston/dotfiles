@@ -1,31 +1,11 @@
-zshc() {
-  vim ~/.zshrc
-}
+alias zshr='source ~/.zshrc'
+alias tmuxr='tmux source ~/.tmux.conf'
 
-zshr() {
-  source ~/.zshrc
-}
+alias vf='vim $(fd --type f --hidden --follow | fzf)'
+alias cdd='cd $(fd --type d . $HOME | fzf)'
 
-tmuxc() {
-  vim ~/.tmux.conf
-}
+alias gcb='git checkout $(git branch -a | fzf)'
 
-tmuxr() {
-  tmux source ~/.tmux.conf
-}
-
-aliasc() {
-  vim ~/.aliases
-}
-
-tfp() {
-  terraform plan
-}
-
-tfa() {
-  terraform apply -auto-approve
-}
-
-tfd() {
-  terraform destroy -auto-approve
-}
+alias tfp='terraform plan'
+alias tfa='terraform apply -auto-approve'
+alias tfd='terraform destroy -auto-approve'

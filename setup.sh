@@ -54,9 +54,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 
 # Symlink dotfiles
-dotfiles="zshrc aliases p10k.zsh tmux.conf"
-dotfiles_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-for file in $dotfiles; do
-  ln -sfv $dotfiles_dir/$file ~/.$file
-done
+bash ./symlink.sh

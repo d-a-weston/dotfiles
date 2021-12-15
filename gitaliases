@@ -1,0 +1,2 @@
+alias gcb='git checkout $(git branch -a | fzf)'
+alias gcz='git reset HEAD~1 --mixed'

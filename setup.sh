@@ -7,6 +7,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install required tools
 brew install tmux
+brew install z
 brew install fzf
 brew install fd
 brew install wget

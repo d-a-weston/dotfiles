@@ -6,8 +6,8 @@ alias cdd='cd $(fd --type d . $HOME/Documents | fzf)'
 
 alias tfi='terraform init'
 alias tfp='terraform plan'
-alias tfa='terraform apply -auto-approve'
-alias tfd='terraform destroy -auto-approve'
+alias tfa='terraform apply'
+alias tfd='terraform destroy'
 
 alias obr='cd ~/Documents/Github/vault && git pull && cd -'
 

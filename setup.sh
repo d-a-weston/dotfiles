@@ -35,6 +35,7 @@ brew install --cask discord
 brew install --cask notion
 brew install --cask ticktick
 brew install --cask obsidian
+brew install --cask mimestream
 brew install --cask spotify
 brew install --cask github
 brew install --cask visual-studio-code

@@ -27,6 +27,7 @@ brew install --cask bettertouchtool
 brew install --cask rectangle
 brew install --cask appcleaner
 brew install --cask stats
+brew install --cask the-unarchiver
 brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask messenger

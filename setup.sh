@@ -41,6 +41,7 @@ brew install --cask spotify
 brew install --cask github
 brew install --cask visual-studio-code
 brew install --cask postman
+brew install --cask lens
 
 # Has issues on Macbook 2021
 # brew install --cask docker

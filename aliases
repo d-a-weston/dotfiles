@@ -12,7 +12,7 @@ alias tfd='terraform destroy'
 alias obr='cd ~/Documents/Github/vault && git pull && cd -'
 
 obw() {
-  MSG="update"
+  MSG="Last Sync: $(date +"%H:%M:%S %Y-%m-%d")"
 
   if [ ! -z "$1" ]; then MSG=$1; fi;
 

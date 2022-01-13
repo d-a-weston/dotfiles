@@ -10,6 +10,7 @@ brew install tmux
 brew install z
 brew install fzf
 brew install fd
+brew install tree
 brew install wget
 brew install git
 brew install gh

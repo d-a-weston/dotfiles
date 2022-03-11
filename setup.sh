@@ -6,18 +6,19 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install required tools
-brew install tmux
-brew install z
-brew install fzf
+brew install docker
 brew install fd
+brew install fzf
+brew install gh
+brew install git
+brew install helm
+brew install nvm
+brew install terraform
+brew install tmux
 brew install tree
 brew install wget
-brew install git
-brew install gh
-brew install nvm
 brew install yarn
-brew install terraform
-brew install docker
+brew install z
 
 # Not sure about these yet
 # brew install minikube

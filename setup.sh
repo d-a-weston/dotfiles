@@ -12,6 +12,7 @@ brew install fzf
 brew install gh
 brew install git
 brew install helm
+brew install minikube
 brew install nvm
 brew install terraform
 brew install tmux
@@ -19,9 +20,6 @@ brew install tree
 brew install wget
 brew install yarn
 brew install z
-
-# Not sure about these yet
-# brew install minikube
 
 # Install required apps
 brew install --cask alfred
@@ -42,11 +40,9 @@ brew install --cask numi
 brew install --cask spotify
 brew install --cask github
 brew install --cask visual-studio-code
+brew install --cask docker
 brew install --cask postman
 brew install --cask lens
-
-# Has issues on Macbook 2021
-# brew install --cask docker
 
 # Only used for 2021 Macbook Pro
 # brew install --cask topnotch

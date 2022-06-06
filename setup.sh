@@ -12,6 +12,8 @@ brew install fzf
 brew install gh
 brew install git
 brew install helm
+brew install hey
+brew install jq
 brew install minikube
 brew install nvm
 brew install terraform
